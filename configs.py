@@ -12,9 +12,9 @@ logging.basicConfig(
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = int(os.environ.get("API_ID", "24505957"))
+    API_HASH = os.environ.get("API_HASH", "b9eae662a6dffd354d7bf18b239ad2bc")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6130789188:AAHt_IVBJn9xvF2kEGEkmK02hlkNGEhYyx8")
     DOWNLOAD_DIR = os.environ.get("DOWNLOAD_DIR", "./downloads")
     LOGGER = logging
     OWNER_ID = int(os.environ.get("OWNER_ID", 1445283714))
